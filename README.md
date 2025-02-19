@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prisma Learning Progress
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+This repository tracks my learning journey with Prisma. Prisma is a next-generation Object-Relational Mapper (ORM) that simplifies database management and interaction. I’ve started with the basics and am currently working with Prisma Client instances.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Progress
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Started learning Prisma**: [Date you started]
+- **Completed the following Prisma concepts**:
+  - Initial setup and configuration
+  - Database schema creation
+  - Running migrations
+  - Querying with Prisma Client
+  - Managing Prisma Client instances
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Current Progress
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+As of now, I’m learning how to efficiently manage and instantiate Prisma Client instances in a Node.js application. I am understanding how to structure my project to use the Prisma Client with proper instance management for performance and scalability.
 
-## Learn More
+## Next Steps
 
-To learn more about Next.js, take a look at the following resources:
+1. Master more advanced querying techniques (e.g., relations, aggregations).
+2. Explore Prisma Migrations in-depth.
+3. Implement a full-fledged CRUD API using Prisma.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Setup Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repo:
+    ```bash
+    git clone <repository-url>
+    ```
 
-## Deploy on Vercel
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Set up the Prisma schema (e.g., `schema.prisma`):
+    ```bash
+    npx prisma init
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Run migrations:
+    ```bash
+    npx prisma migrate dev
+    ```
+
+5. Use Prisma Client in your application!
+
+## Resources
+
+- [Prisma Documentation](https://www.prisma.io/docs)
+- [Prisma YouTube Channel](https://www.youtube.com/c/Prisma)
