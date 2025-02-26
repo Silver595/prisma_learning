@@ -6,7 +6,7 @@ This repository tracks my learning journey with Prisma. Prisma is a next-generat
 
 ## Progress
 
-- **Started learning Prisma**: [Date you started]
+- **Started learning Prisma**: 
 - **Completed the following Prisma concepts**:
   - Initial setup and configuration
   - Database schema creation
